@@ -1,4 +1,5 @@
 *.LOG
 *.si_recovery
+*.exe*
 Settings/Backup of layout.xml
 Settings/layout.xml
