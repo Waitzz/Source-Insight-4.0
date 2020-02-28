@@ -7773,6 +7773,7 @@
 				<Item Keyword="ADR" Style="Keyword" />
 				<Item Keyword="ADRL" Style="Keyword" />
 				<Item Keyword="ALIGN" Style="Keyword" />
+				<Item Keyword="and" Style="Keyword" />
 				<Item Keyword="AND" Style="Keyword" />
 				<Item Keyword="ANDS" Style="Keyword" />
 				<Item Keyword="ASL" Style="Keyword" />
@@ -7780,15 +7781,17 @@
 				<Item Keyword="ASR" Style="Keyword" />
 				<Item Keyword="ATN" Style="Keyword" />
 				<Item Keyword="B" Style="Keyword" />
-				<Item Keyword="BEQ" Style="Keyword" />
 				<Item Keyword="beq" Style="Keyword" />
+				<Item Keyword="BEQ" Style="Keyword" />
 				<Item Keyword="BIC" Style="Keyword" />
 				<Item Keyword="bic" Style="Keyword" />
 				<Item Keyword="BKPT" Style="Keyword" />
-				<Item Keyword="bl" Style="Keyword" />
 				<Item Keyword="BL" Style="Keyword" />
+				<Item Keyword="bl" Style="Keyword" />
 				<Item Keyword="BLX" Style="Keyword" />
 				<Item Keyword="BNE" Style="Keyword" />
+				<Item Keyword="bne" Style="Keyword" />
+				<Item Keyword="bx" Style="Keyword" />
 				<Item Keyword="BX" Style="Keyword" />
 				<Item Keyword="CDP" Style="Keyword" />
 				<Item Keyword="CDP2" Style="Keyword" />
@@ -7796,6 +7799,7 @@
 				<Item Keyword="CMF" Style="Keyword" />
 				<Item Keyword="CMN" Style="Keyword" />
 				<Item Keyword="CMP" Style="Keyword" />
+				<Item Keyword="cmp" Style="Keyword" />
 				<Item Keyword="CNF" Style="Keyword" />
 				<Item Keyword="COS" Style="Keyword" />
 				<Item Keyword="CPS" Style="Keyword" />
@@ -7809,10 +7813,10 @@
 				<Item Keyword="DCW" Style="Keyword" />
 				<Item Keyword="define" Style="Keyword" />
 				<Item Keyword="defined" Style="Directive" />
-				<Item Keyword="DMB" Style="Keyword" />
 				<Item Keyword="dmb" Style="Keyword" />
-				<Item Keyword="DSB" Style="Keyword" />
+				<Item Keyword="DMB" Style="Keyword" />
 				<Item Keyword="dsb" Style="Keyword" />
+				<Item Keyword="DSB" Style="Keyword" />
 				<Item Keyword="DVF" Style="Keyword" />
 				<Item Keyword="elif" Style="Directive" />
 				<Item Keyword="else" Style="Directive" />
@@ -7876,6 +7880,7 @@
 				<Item Keyword="LDC2" Style="Keyword" />
 				<Item Keyword="LDF" Style="Keyword" />
 				<Item Keyword="LDM" Style="Keyword" />
+				<Item Keyword="ldmfd" Style="Keyword" />
 				<Item Keyword="LDMIA" Style="Keyword" />
 				<Item Keyword="ldmia" Style="Keyword" />
 				<Item Keyword="LDR" Style="Keyword" />
@@ -7892,22 +7897,23 @@
 				<Item Keyword="mcr" Style="Keyword" />
 				<Item Keyword="MCR2" Style="Keyword" />
 				<Item Keyword="MCRR" Style="Keyword" />
+				<Item Keyword="mcrr" Style="Keyword" />
 				<Item Keyword="MIA" Style="Keyword" />
 				<Item Keyword="MIAPH" Style="Keyword" />
 				<Item Keyword="MLA" Style="Keyword" />
 				<Item Keyword="MNF" Style="Keyword" />
-				<Item Keyword="mov" Style="Keyword" />
 				<Item Keyword="MOV" Style="Keyword" />
+				<Item Keyword="mov" Style="Keyword" />
 				<Item Keyword="movs" Style="Keyword" />
 				<Item Keyword="MOVS" Style="Keyword" />
 				<Item Keyword="MRC" Style="Keyword" />
 				<Item Keyword="mrc" Style="Keyword" />
 				<Item Keyword="MRC2" Style="Keyword" />
 				<Item Keyword="MRRC" Style="Keyword" />
-				<Item Keyword="MRS" Style="Keyword" />
 				<Item Keyword="mrs" Style="Keyword" />
-				<Item Keyword="msr" Style="Keyword" />
+				<Item Keyword="MRS" Style="Keyword" />
 				<Item Keyword="MSR" Style="Keyword" />
+				<Item Keyword="msr" Style="Keyword" />
 				<Item Keyword="MUF" Style="Keyword" />
 				<Item Keyword="MUL" Style="Keyword" />
 				<Item Keyword="MVF" Style="Keyword" />
@@ -7916,8 +7922,8 @@
 				<Item Keyword="NOP" Style="Keyword" />
 				<Item Keyword="NRM" Style="Keyword" />
 				<Item Keyword="OPT" Style="Keyword" />
-				<Item Keyword="orr" Style="Keyword" />
 				<Item Keyword="ORR" Style="Keyword" />
+				<Item Keyword="orr" Style="Keyword" />
 				<Item Keyword="orrne" Style="Keyword" />
 				<Item Keyword="ORRNE" Style="Keyword" />
 				<Item Keyword="PLD" Style="Keyword" />
@@ -7926,8 +7932,8 @@
 				<Item Keyword="POP" Style="Keyword" />
 				<Item Keyword="POW" Style="Keyword" />
 				<Item Keyword="pragma" Style="Keyword" />
-				<Item Keyword="push" Style="Keyword" />
 				<Item Keyword="PUSH" Style="Keyword" />
+				<Item Keyword="push" Style="Keyword" />
 				<Item Keyword="QADD" Style="Keyword" />
 				<Item Keyword="QDADD" Style="Keyword" />
 				<Item Keyword="QDSUB" Style="Keyword" />

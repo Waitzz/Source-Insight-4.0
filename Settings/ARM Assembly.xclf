@@ -162,37 +162,43 @@
 				<Item Keyword="ACS" Style="Keyword" />
 				<Item Keyword="ADC" Style="Keyword" />
 				<Item Keyword="ADD" Style="Keyword" />
+				<Item Keyword="add" Style="Keyword" />
 				<Item Keyword="ADF" Style="Keyword" />
 				<Item Keyword="ADR" Style="Keyword" />
 				<Item Keyword="ADRL" Style="Keyword" />
 				<Item Keyword="ALIGN" Style="Keyword" />
 				<Item Keyword="AND" Style="Keyword" />
+				<Item Keyword="and" Style="Keyword" />
 				<Item Keyword="ANDS" Style="Keyword" />
 				<Item Keyword="ASL" Style="Keyword" />
 				<Item Keyword="ASN" Style="Keyword" />
 				<Item Keyword="ASR" Style="Keyword" />
 				<Item Keyword="ATN" Style="Keyword" />
 				<Item Keyword="B" Style="Keyword" />
+				<Item Keyword="b" Style="Keyword" />
 				<Item Keyword="BEQ" Style="Keyword" />
 				<Item Keyword="beq" Style="Keyword" />
-				<Item Keyword="BIC" Style="Keyword" />
 				<Item Keyword="bic" Style="Keyword" />
+				<Item Keyword="BIC" Style="Keyword" />
 				<Item Keyword="BKPT" Style="Keyword" />
-				<Item Keyword="bl" Style="Keyword" />
 				<Item Keyword="BL" Style="Keyword" />
+				<Item Keyword="bl" Style="Keyword" />
 				<Item Keyword="BLX" Style="Keyword" />
+				<Item Keyword="bne" Style="Keyword" />
 				<Item Keyword="BNE" Style="Keyword" />
 				<Item Keyword="BX" Style="Keyword" />
+				<Item Keyword="bx" Style="Keyword" />
 				<Item Keyword="CDP" Style="Keyword" />
 				<Item Keyword="CDP2" Style="Keyword" />
 				<Item Keyword="CLZ" Style="Keyword" />
 				<Item Keyword="CMF" Style="Keyword" />
 				<Item Keyword="CMN" Style="Keyword" />
+				<Item Keyword="cmp" Style="Keyword" />
 				<Item Keyword="CMP" Style="Keyword" />
 				<Item Keyword="CNF" Style="Keyword" />
 				<Item Keyword="COS" Style="Keyword" />
-				<Item Keyword="CPS" Style="Keyword" />
 				<Item Keyword="cps" Style="Keyword" />
+				<Item Keyword="CPS" Style="Keyword" />
 				<Item Keyword="DCB" Style="Keyword" />
 				<Item Keyword="DCD" Style="Keyword" />
 				<Item Keyword="DCF" Style="Keyword" />
@@ -202,10 +208,10 @@
 				<Item Keyword="DCW" Style="Keyword" />
 				<Item Keyword="define" Style="Keyword" />
 				<Item Keyword="defined" Style="Directive" />
-				<Item Keyword="DMB" Style="Keyword" />
 				<Item Keyword="dmb" Style="Keyword" />
-				<Item Keyword="DSB" Style="Keyword" />
+				<Item Keyword="DMB" Style="Keyword" />
 				<Item Keyword="dsb" Style="Keyword" />
+				<Item Keyword="DSB" Style="Keyword" />
 				<Item Keyword="DVF" Style="Keyword" />
 				<Item Keyword="elif" Style="Directive" />
 				<Item Keyword="else" Style="Directive" />
@@ -269,22 +275,25 @@
 				<Item Keyword="LDC2" Style="Keyword" />
 				<Item Keyword="LDF" Style="Keyword" />
 				<Item Keyword="LDM" Style="Keyword" />
-				<Item Keyword="LDMIA" Style="Keyword" />
+				<Item Keyword="ldmfd" Style="Keyword" />
 				<Item Keyword="ldmia" Style="Keyword" />
-				<Item Keyword="LDR" Style="Keyword" />
+				<Item Keyword="LDMIA" Style="Keyword" />
 				<Item Keyword="ldr" Style="Keyword" />
+				<Item Keyword="LDR" Style="Keyword" />
 				<Item Keyword="LDRB" Style="Keyword" />
 				<Item Keyword="LDRH" Style="Keyword" />
+				<Item Keyword="ldrh" Style="Keyword" />
 				<Item Keyword="LDRSB" Style="Keyword" />
 				<Item Keyword="LDRSH" Style="Keyword" />
 				<Item Keyword="LFM" Style="Keyword" />
 				<Item Keyword="LGN" Style="Keyword" />
 				<Item Keyword="LOG" Style="Keyword" />
 				<Item Keyword="LSL" Style="Keyword" />
-				<Item Keyword="MCR" Style="Keyword" />
 				<Item Keyword="mcr" Style="Keyword" />
+				<Item Keyword="MCR" Style="Keyword" />
 				<Item Keyword="MCR2" Style="Keyword" />
 				<Item Keyword="MCRR" Style="Keyword" />
+				<Item Keyword="mcrr" Style="Keyword" />
 				<Item Keyword="MIA" Style="Keyword" />
 				<Item Keyword="MIAPH" Style="Keyword" />
 				<Item Keyword="MLA" Style="Keyword" />
@@ -376,25 +385,25 @@
 				<Item Keyword="STC2" Style="Keyword" />
 				<Item Keyword="STF" Style="Keyword" />
 				<Item Keyword="STM" Style="Keyword" />
-				<Item Keyword="STMFD" Style="Keyword" />
 				<Item Keyword="stmfd" Style="Keyword" />
-				<Item Keyword="STMIA" Style="Keyword" />
+				<Item Keyword="STMFD" Style="Keyword" />
 				<Item Keyword="stmia" Style="Keyword" />
+				<Item Keyword="STMIA" Style="Keyword" />
 				<Item Keyword="str" Style="Keyword" />
 				<Item Keyword="STR" Style="Keyword" />
 				<Item Keyword="STRB" Style="Keyword" />
 				<Item Keyword="STRH" Style="Keyword" />
 				<Item Keyword="STRSB" Style="Keyword" />
 				<Item Keyword="STRSH" Style="Keyword" />
-				<Item Keyword="sub" Style="Keyword" />
 				<Item Keyword="SUB" Style="Keyword" />
+				<Item Keyword="sub" Style="Keyword" />
 				<Item Keyword="SUF" Style="Keyword" />
 				<Item Keyword="SWI" Style="Keyword" />
 				<Item Keyword="SWP" Style="Keyword" />
 				<Item Keyword="TAN" Style="Keyword" />
 				<Item Keyword="TEQ" Style="Keyword" />
-				<Item Keyword="tst" Style="Keyword" />
 				<Item Keyword="TST" Style="Keyword" />
+				<Item Keyword="tst" Style="Keyword" />
 				<Item Keyword="UMAAL" Style="Keyword" />
 				<Item Keyword="UMLAL" Style="Keyword" />
 				<Item Keyword="UMULL" Style="Keyword" />
@@ -404,7 +413,13 @@
 				<Item Keyword="USADA8" Style="Keyword" />
 				<Item Keyword="USAT" Style="Keyword" />
 				<Item Keyword="USAT16" Style="Keyword" />
+				<Item Keyword="vmsr" Style="Keyword" />
+				<Item Keyword="VMSR" Style="Keyword" />
 				<Item Keyword="WFC" Style="Keyword" />
+				<Item Keyword="WFE" Style="Keyword" />
+				<Item Keyword="wfe" Style="Keyword" />
+				<Item Keyword="WFI" Style="Keyword" />
+				<Item Keyword="wfi" Style="Keyword" />
 				<Item Keyword="WFINE" Style="Keyword" />
 			</Keywords>
 		</Language>
