@@ -194,7 +194,7 @@
 		SaveKeepsUndo="1"
 		SaveOverRO="0"
 		SavePromptOnModified="1"
-		TrimWhiteSpace="0"
+		TrimWhiteSpace="1"
 		EditReadOnly="0"
 		ConfirmDelete="1"
 		BlockBinaryFiles="1"
@@ -1138,7 +1138,7 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="0"
 			AutoInsertPairs="0"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
@@ -8044,7 +8044,7 @@
 		>
 		<SearchDialogs>
 			<Search
-				RegexType="Source Insight"
+				RegexType="Source Insight multi-line"
 				IgnoreCase="0"
 				UseRegexp="0"
 				WrapAround="0"
@@ -8057,9 +8057,9 @@
 				ReplacePreserveCase="0"
 				ReplaceConfirm="1"
 				ReplaceConfirmFile="0"
-				SkipComments="0"
+				SkipComments="1"
 				OnlyComments="0"
-				SkipDeadCode="0"
+				SkipDeadCode="1"
 				FindSubdirs="0"
 				SkipStrings="0"
 				ResultFileName="1"
@@ -8267,7 +8267,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="269"
+		Width="276"
 		TextColor="#000000"
 		BackColor="#d6edd8"
 		ShowChanges="1"
