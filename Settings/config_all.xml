@@ -1135,10 +1135,10 @@
 			AllowAutocomplete="1"
 			AllowSmartPaste="0"
 			AllowSnippets="1"
-			ShowRefHighlights="0"
+			ShowRefHighlights="1"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="0"
 			AutoInsertPairs="0"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
@@ -7951,6 +7951,7 @@
 				<Item Keyword="MRC2" Style="Keyword" />
 				<Item Keyword="mrcne" Style="Keyword" />
 				<Item Keyword="MRRC" Style="Keyword" />
+				<Item Keyword="mrrc" Style="Keyword" />
 				<Item Keyword="mrs" Style="Keyword" />
 				<Item Keyword="MRS" Style="Keyword" />
 				<Item Keyword="MSR" Style="Keyword" />
@@ -8032,6 +8033,7 @@
 				<Item Keyword="STC2" Style="Keyword" />
 				<Item Keyword="STF" Style="Keyword" />
 				<Item Keyword="STM" Style="Keyword" />
+				<Item Keyword="STMDB" Style="Keyword" />
 				<Item Keyword="STMFD" Style="Keyword" />
 				<Item Keyword="stmfd" Style="Keyword" />
 				<Item Keyword="stmia" Style="Keyword" />
@@ -8098,14 +8100,14 @@
 				FindNonMatch="0"
 				FindOnePerLine="0"
 				FindBackward="0"
-				FindWholeWords="0"
+				FindWholeWords="1"
 				TouchFiles="0"
 				ReplacePreserveCase="0"
 				ReplaceConfirm="1"
 				ReplaceConfirmFile="0"
-				SkipComments="0"
+				SkipComments="1"
 				OnlyComments="0"
-				SkipDeadCode="0"
+				SkipDeadCode="1"
 				FindSubdirs="0"
 				SkipStrings="0"
 				ResultFileName="1"
