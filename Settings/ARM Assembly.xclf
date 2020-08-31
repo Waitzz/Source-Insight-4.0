@@ -36,7 +36,12 @@
 					/>
 				<Expression
 					SymbolType="Function"
-					Pattern="^([_A-Za-z][A-Za-z0-9_]+):*"
+					Pattern="^([_A-Za-z][A-Za-z0-9_]+):"
+					RegexType="Perl Compatible multi-line"
+					/>
+				<Expression
+					SymbolType="Function"
+					Pattern="^ENTRY\(([_A-Za-z][_A-Za-z0-9]+)\)"
 					RegexType="Perl Compatible multi-line"
 					/>
 			</CustomParsing>
@@ -165,10 +170,12 @@
 				<Item Keyword="add" Style="Keyword" />
 				<Item Keyword="ADF" Style="Keyword" />
 				<Item Keyword="ADR" Style="Keyword" />
+				<Item Keyword="adr" Style="Keyword" />
 				<Item Keyword="ADRL" Style="Keyword" />
 				<Item Keyword="ALIGN" Style="Keyword" />
-				<Item Keyword="AND" Style="Keyword" />
 				<Item Keyword="and" Style="Keyword" />
+				<Item Keyword="AND" Style="Keyword" />
+				<Item Keyword="ands" Style="Keyword" />
 				<Item Keyword="ANDS" Style="Keyword" />
 				<Item Keyword="ASL" Style="Keyword" />
 				<Item Keyword="ASN" Style="Keyword" />
@@ -176,8 +183,9 @@
 				<Item Keyword="ATN" Style="Keyword" />
 				<Item Keyword="B" Style="Keyword" />
 				<Item Keyword="b" Style="Keyword" />
-				<Item Keyword="BEQ" Style="Keyword" />
 				<Item Keyword="beq" Style="Keyword" />
+				<Item Keyword="BEQ" Style="Keyword" />
+				<Item Keyword="bgt" Style="Keyword" />
 				<Item Keyword="bic" Style="Keyword" />
 				<Item Keyword="BIC" Style="Keyword" />
 				<Item Keyword="BKPT" Style="Keyword" />
@@ -190,6 +198,7 @@
 				<Item Keyword="bx" Style="Keyword" />
 				<Item Keyword="CDP" Style="Keyword" />
 				<Item Keyword="CDP2" Style="Keyword" />
+				<Item Keyword="clz" Style="Keyword" />
 				<Item Keyword="CLZ" Style="Keyword" />
 				<Item Keyword="CMF" Style="Keyword" />
 				<Item Keyword="CMN" Style="Keyword" />
@@ -269,67 +278,73 @@
 				<Item Keyword="ifdef" Style="Directive" />
 				<Item Keyword="ifndef" Style="Directive" />
 				<Item Keyword="include" Style="Keyword" />
-				<Item Keyword="ISB" Style="Keyword" />
 				<Item Keyword="isb" Style="Keyword" />
+				<Item Keyword="ISB" Style="Keyword" />
 				<Item Keyword="LDC" Style="Keyword" />
 				<Item Keyword="LDC2" Style="Keyword" />
 				<Item Keyword="LDF" Style="Keyword" />
 				<Item Keyword="LDM" Style="Keyword" />
 				<Item Keyword="ldmfd" Style="Keyword" />
-				<Item Keyword="ldmia" Style="Keyword" />
 				<Item Keyword="LDMIA" Style="Keyword" />
+				<Item Keyword="ldmia" Style="Keyword" />
 				<Item Keyword="ldr" Style="Keyword" />
 				<Item Keyword="LDR" Style="Keyword" />
 				<Item Keyword="LDRB" Style="Keyword" />
-				<Item Keyword="LDRH" Style="Keyword" />
 				<Item Keyword="ldrh" Style="Keyword" />
+				<Item Keyword="LDRH" Style="Keyword" />
 				<Item Keyword="LDRSB" Style="Keyword" />
 				<Item Keyword="LDRSH" Style="Keyword" />
 				<Item Keyword="LFM" Style="Keyword" />
 				<Item Keyword="LGN" Style="Keyword" />
 				<Item Keyword="LOG" Style="Keyword" />
 				<Item Keyword="LSL" Style="Keyword" />
-				<Item Keyword="mcr" Style="Keyword" />
 				<Item Keyword="MCR" Style="Keyword" />
+				<Item Keyword="mcr" Style="Keyword" />
 				<Item Keyword="MCR2" Style="Keyword" />
-				<Item Keyword="MCRR" Style="Keyword" />
+				<Item Keyword="mcrne" Style="Keyword" />
 				<Item Keyword="mcrr" Style="Keyword" />
+				<Item Keyword="MCRR" Style="Keyword" />
 				<Item Keyword="MIA" Style="Keyword" />
 				<Item Keyword="MIAPH" Style="Keyword" />
 				<Item Keyword="MLA" Style="Keyword" />
 				<Item Keyword="MNF" Style="Keyword" />
 				<Item Keyword="mov" Style="Keyword" />
 				<Item Keyword="MOV" Style="Keyword" />
+				<Item Keyword="movne" Style="Keyword" />
 				<Item Keyword="movs" Style="Keyword" />
 				<Item Keyword="MOVS" Style="Keyword" />
-				<Item Keyword="MRC" Style="Keyword" />
+				<Item Keyword="movw" Style="Keyword" />
 				<Item Keyword="mrc" Style="Keyword" />
+				<Item Keyword="MRC" Style="Keyword" />
 				<Item Keyword="MRC2" Style="Keyword" />
+				<Item Keyword="mrcne" Style="Keyword" />
+				<Item Keyword="mrrc" Style="Keyword" />
 				<Item Keyword="MRRC" Style="Keyword" />
 				<Item Keyword="MRS" Style="Keyword" />
 				<Item Keyword="mrs" Style="Keyword" />
-				<Item Keyword="msr" Style="Keyword" />
 				<Item Keyword="MSR" Style="Keyword" />
+				<Item Keyword="msr" Style="Keyword" />
 				<Item Keyword="MUF" Style="Keyword" />
 				<Item Keyword="MUL" Style="Keyword" />
 				<Item Keyword="MVF" Style="Keyword" />
+				<Item Keyword="mvn" Style="Keyword" />
 				<Item Keyword="MVN" Style="Keyword" />
 				<Item Keyword="NEG" Style="Keyword" />
 				<Item Keyword="NOP" Style="Keyword" />
 				<Item Keyword="NRM" Style="Keyword" />
 				<Item Keyword="OPT" Style="Keyword" />
-				<Item Keyword="orr" Style="Keyword" />
 				<Item Keyword="ORR" Style="Keyword" />
-				<Item Keyword="orrne" Style="Keyword" />
+				<Item Keyword="orr" Style="Keyword" />
 				<Item Keyword="ORRNE" Style="Keyword" />
+				<Item Keyword="orrne" Style="Keyword" />
 				<Item Keyword="PLD" Style="Keyword" />
 				<Item Keyword="POL" Style="Keyword" />
 				<Item Keyword="pop" Style="Keyword" />
 				<Item Keyword="POP" Style="Keyword" />
 				<Item Keyword="POW" Style="Keyword" />
 				<Item Keyword="pragma" Style="Keyword" />
-				<Item Keyword="push" Style="Keyword" />
 				<Item Keyword="PUSH" Style="Keyword" />
+				<Item Keyword="push" Style="Keyword" />
 				<Item Keyword="QADD" Style="Keyword" />
 				<Item Keyword="QDADD" Style="Keyword" />
 				<Item Keyword="QDSUB" Style="Keyword" />
@@ -350,6 +365,7 @@
 				<Item Keyword="R8" Style="Keyword" />
 				<Item Keyword="R9" Style="Keyword" />
 				<Item Keyword="RDF" Style="Keyword" />
+				<Item Keyword="ret" Style="Keyword" />
 				<Item Keyword="RFC" Style="Keyword" />
 				<Item Keyword="RFS" Style="Keyword" />
 				<Item Keyword="RMF" Style="Keyword" />
@@ -385,22 +401,25 @@
 				<Item Keyword="STC2" Style="Keyword" />
 				<Item Keyword="STF" Style="Keyword" />
 				<Item Keyword="STM" Style="Keyword" />
-				<Item Keyword="stmfd" Style="Keyword" />
+				<Item Keyword="STMDB" Style="Keyword" />
 				<Item Keyword="STMFD" Style="Keyword" />
-				<Item Keyword="stmia" Style="Keyword" />
+				<Item Keyword="stmfd" Style="Keyword" />
 				<Item Keyword="STMIA" Style="Keyword" />
+				<Item Keyword="stmia" Style="Keyword" />
 				<Item Keyword="str" Style="Keyword" />
 				<Item Keyword="STR" Style="Keyword" />
 				<Item Keyword="STRB" Style="Keyword" />
 				<Item Keyword="STRH" Style="Keyword" />
 				<Item Keyword="STRSB" Style="Keyword" />
 				<Item Keyword="STRSH" Style="Keyword" />
-				<Item Keyword="SUB" Style="Keyword" />
 				<Item Keyword="sub" Style="Keyword" />
+				<Item Keyword="SUB" Style="Keyword" />
+				<Item Keyword="subs" Style="Keyword" />
 				<Item Keyword="SUF" Style="Keyword" />
 				<Item Keyword="SWI" Style="Keyword" />
 				<Item Keyword="SWP" Style="Keyword" />
 				<Item Keyword="TAN" Style="Keyword" />
+				<Item Keyword="teq" Style="Keyword" />
 				<Item Keyword="TEQ" Style="Keyword" />
 				<Item Keyword="TST" Style="Keyword" />
 				<Item Keyword="tst" Style="Keyword" />
