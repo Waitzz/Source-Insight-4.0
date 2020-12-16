@@ -200,7 +200,7 @@
 		BlockBinaryFiles="1"
 		OpenBackupsAsReadOnly="1"
 		DefaultFileFormat="2"
-		DefaultEncoding="65001"
+		DefaultEncoding="0"
 		FileOpenAction="Project File List"
 		/>
 	<LookupPreferences
